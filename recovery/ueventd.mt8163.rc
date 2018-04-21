@@ -13,7 +13,7 @@
 /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/para      0660    root    system
 /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/logo      0660    root    system
 /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/frp       0660    root    system
-
+/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/priv       0660    root    system
 
 # Connectivity
 /dev/stpwmt               0660   system     system
@@ -41,6 +41,13 @@
 
 # MTK BTIF driver
 /dev/btif                 0600   system     system
+
+# Audio
+/dev/i2c-4                0660   media      media
+
+# DTS_EAGLE START
+/dev/dts_eagle            0660   system     audio
+# DTS_EAGLE END
 
 # GPU
 /dev/dri/card0            0666   system     system
@@ -111,3 +118,4 @@
 
 # RPMB
 /dev/block/mmcblk0rpmb    0660   root       system
+
