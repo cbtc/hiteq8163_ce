@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/gpd_en.mk
+    $(LOCAL_DIR)/hiteq8163_ce.mk
